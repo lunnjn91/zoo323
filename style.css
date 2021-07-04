@@ -1,0 +1,19 @@
+ /*font settings*/
+  
+      @font-face {
+        font-family:"NanumAmSeuTeReuDam";
+        src: local("NanumAmSeuTeReuDam"), local("나눔손글씨 암스테르담"), url("https://ssl.pstatic.net/static/clova/service/clova_ai/event/handwriting/fonts_1007/69/나눔손글씨 암스테르담.woff2") format("woff2"), url("https://ssl.pstatic.net/static/clova/service/clova_ai/event/handwriting/fonts_1007/69/나눔손글씨 암스테르담.woff") format("woff");
+        font-style:normal;
+        font-size : 20px;
+        font-weight:400;
+		}
+
+      @font-face {
+        font-family:"NanumAmSeuTeReuDam";
+        src: url(https://fonts.gstatic.com/s/architectsdaughter/v11/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg4-7jA-U.woff2) format('woff2');
+		unicode-range: U+0041-005A, U+0061-007A
+		}
+		
+      body{
+	font-family: "NanumAmSeuTeReuDam";
+}
